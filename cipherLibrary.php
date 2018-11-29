@@ -303,7 +303,7 @@ function rsa_decrypt($ciphertext,$key)
 
 function tripledes($data, $secret)
 {
-    //Generate a key from a hash
+    //Generate a key from a hash and retuen text
     $key = md5(utf8_encode($secret), true);
 
     //Take first 8 bytes of $key and append them to the end of $key.
@@ -320,7 +320,6 @@ function tripledes($data, $secret)
 
     return $encData;
 }
-
 
 
 function tripledes_decrypt($data, $secret)
