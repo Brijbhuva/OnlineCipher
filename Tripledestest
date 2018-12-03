@@ -1,6 +1,7 @@
 <?php
 // use PHPUnit\Framework\TestCase\TestCaseTest;
 // use PHPUnit\Runner\BaseTestRunner;
+// Triple des test cases
  
 include 'cipherLibrary.php';
  class TrippledesTest extends PHPUnit_Framework_TestCase
